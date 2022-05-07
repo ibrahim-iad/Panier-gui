@@ -30,8 +30,8 @@ namespace Panier_gui
                     case 3:
                         Console.WriteLine("--------------------");
                         panier.Imprimer();
-                        Console.WriteLine("Remise:" + panier.Remise());
-                        Console.WriteLine("Total:" + panier.Total());
+                        Console.WriteLine("Remise:" + panier.Remise);
+                        Console.WriteLine("Total:" + panier.Total);
                         Console.WriteLine("--------------------");
                         break;
 
